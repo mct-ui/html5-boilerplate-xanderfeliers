@@ -32,4 +32,51 @@ body {
     max-width: 100%;
     vertical-align: top;
   }
+  h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 48px;
+  }
+  h2 {
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
+  }
+  h4, h5, h6 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
+  }
+  p, ol, ul, dl, table, address, figure {
+    margin: 0 0 24px;
+  }
+  ul, ol, blockquote {
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    font-family: "Times New Roman", serif;
+  }
+  li ul, li ol {}
+  blockquote * {
+    font-size: inherit;
+    line-height: inherit;
+  }
+  figcaption {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: Grey;
+  }
+  hr {}
+  a {}
+  a:hover, a:focus {}
+  a:visited, a:active {}
 }
