@@ -86,7 +86,14 @@ body {
     background: LightGrey;
     margin: 0 0 24px;
   }
-  a {}
-  a:hover, a:focus {}
-  a:visited, a:active {}
+  a {
+    color: RoyalBlue;
+    transition: all .ls ease-in-out;
+  }
+  a:hover, a:focus {
+    color: Crimson;
+  }
+  a:visited, a:active {
+    color: Blueviolet;
+  }
 }
