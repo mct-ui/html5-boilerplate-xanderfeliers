@@ -1,5 +1,7 @@
 body {
   background: Khaki;
+  max-width: 42em;
+  margin: 0 auto;
   /*
       Elements: Page
       ---
