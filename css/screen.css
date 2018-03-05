@@ -96,4 +96,19 @@ body {
   a:visited, a:active {
     color: Blueviolet;
   }
+  @media (min-width: 576px) {}
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 58px;
+      line-height: 64px;
+    }
+    html {
+      padding: 48px 48px 24px;
+    }
+  }
+  /* Large devices (landscape tablets, desktops, 992px and up) */
+  @media (min-width: 992px) {}
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {}
 }
